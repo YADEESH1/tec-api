@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECඅපි</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+
+  <header class="bg-blue-600 text-white p-4 text-center text-2xl font-bold shadow">
+    TEC<sup>අපි</sup> 
+  </header>
+
+  <main class="p-6 max-w-3xl mx-auto">
+    
+    <!-- Upload Form -->
+    <div class="bg-white rounded-lg p-4 shadow mb-6">
+      <h2 class="text-xl font-semibold mb-2">📝 නව ගොනුවක් එක් කරන්න</h2>
+      <form>
+        <input type="file" class="block w-full mb-2 border rounded p-2" accept=".pdf,.doc,.docx">
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+          Upload
+        </button>
+      </form>
+    </div>
+
+    <!-- File List -->
+    <div class="bg-white rounded-lg p-4 shadow">
+      <h2 class="text-xl font-semibold mb-4">📚 ලබාගත හැකි සටහන් සහ පේපර්</h2>
+      <ul class="space-y-2">
+        <li class="flex justify-between items-center border-b pb-2">
+          <span>Engineering Maths - 2024 Paper</span>
+          <a href="#" class="text-blue-600 hover:underline">Download</a>
+        </li>
+        <li class="flex justify-between items-center border-b pb-2">
+          <span>Electrical Notes - Unit 1</span>
+          <a href="#" class="text-blue-600 hover:underline">Download</a>
+        </li>
+        <!-- Add more items as needed -->
+      </ul>
+    </div>
+  </main>
+
+  <footer class="text-center text-sm text-gray-600 mt-10 mb-4">
+    © 2025 TECඅපි | Developed with Yadeesha <sup>Gihan</sup>
+  </footer>
+
+</body>
+</html>
